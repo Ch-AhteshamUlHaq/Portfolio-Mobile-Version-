@@ -502,72 +502,72 @@ ul {
   .desktop_nav {
     display: flex;
     width: 10%;
-	margin-left: auto;
+	  margin-left: auto;
     align-items: center;
-	justify-content: center;
-	margin-right: 100px;
+	  justify-content: center;
+	  margin-right: 100px;
   }
 
   .desktop_nav_container {
-	display: flex;
+	  display: flex;
   }
 
   .desk_nav_li {
-	margin-right: 32px;
+	  margin-right: 32px;
   }
 
   .desk_nav_li a:hover {
-	color: #6070ff;
-	font-size: large;
+	  color: #6070ff;
+	  font-size: large;
   }
 
   .logo img {
-	width: 30%;
+	  width: 30%;
   }
 
   .toggle {
-	display: none;
+	  display: none;
   }
 
   .main_container {
-	width: 105%;
-	background-image: url("assets/header-shapes-mobile.png");
-	background-size: 90%;
-	align-items: flex-start;
-	justify-content: center;
-	padding-left: 150px;
-	padding-bottom: 150px;
-	border-bottom-left-radius: 160px;
+	  width: 105%;
+    background-image: url("assets/header-shapes-mobile.png");
+	  background-size: 90%;
+	  align-items: flex-start;
+	  justify-content: center;
+	  padding-left: 150px;
+	  padding-bottom: 150px;
+	  border-bottom-left-radius: 160px;
   }
 
   .figOne {
-	width: 400px;
-	font-size: 48px;
-	line-height: 60px;
+	  width: 400px;
+	  font-size: 48px;
+	  line-height: 60px;
   }
 
   .figTwo {
-	width: 75%;
-	line-height: 28px;
-	font-size: 20px;
-	align-items: center;
-	justify-content: center;
+	  width: 75%;
+	  line-height: 28px;
+	  font-size: 20px;
+	  align-items: center;
+	  justify-content: center;
   }
 
   .socials {
-	width: 30%;
-	margin-right: 10px;
+	  width: 30%;
+	  margin-right: 10px;
   }
 
   .project {
-	padding: 20px 16px 24px 16px;
-	margin-right: 160px;
-	margin-left: 200px;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	border-radius: 16px;
-	border: 1px solid #dfe1e6;
+	  padding: 20px 16px 24px 16px;
+	  margin-right: 160px;
+	  margin-left: 200px;
+	  display: flex;
+	  flex-direction: row;
+	  align-items: flex-start;
+	  border-radius: 16px;
+	  border: 1px solid #dfe1e6;
 	  background-color: #fff;
   }
 
@@ -655,5 +655,4 @@ ul {
   .skills_dropdown {
     width: 70%;
   }
-
 }
