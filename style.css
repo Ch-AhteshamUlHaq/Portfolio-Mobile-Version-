@@ -41,9 +41,9 @@ ul {
 }
 
 @keyframes rotation {
-  50% {
-	transform: rotate(360deg);
-  }
+    50% {
+	  transform: rotate(360deg);
+    }
 }
 
 .logo img {
@@ -174,9 +174,6 @@ ul {
   line-height: 44px;
   color: #172b4d;
   text-align: left;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 52px;
 }
 
 .project_info {
@@ -658,5 +655,5 @@ ul {
   .skills_dropdown {
 	width: 70%;
   }
-  
+
 }
