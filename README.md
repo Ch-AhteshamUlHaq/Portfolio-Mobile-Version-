@@ -1,21 +1,25 @@
 # Portfolio-Mobile-Version
-Setup a mobile version Portfolio: Mobile Version Projects PR to display my projects and skills
 
-Hi, I simple coded the mobile version with the help of flexbox and figma features. It is a structure where we decorate and furnishe further. Develop the responsive one, It's a Portfolio: Mobile Version projects display. It helps the users to understand our services better. It also helps users to understand now a days features and techs.
+<h1>Setup a mobile version Portfolio: Mobile Version Projects PR to display my projects and skills</h1>
 
-Built With Major languages Frameworks Technologies used Html, Css, linters.
-Grid,
-Flexbox,
-Hover
+<h2>Hi, I simple coded the mobile version with the help of flexbox and figma features.
+It is a structure where we decorate and furnishe further. Develop the responsive one,
+It's a Portfolio: Mobile Version projects display. It helps the users to understand 
+our services better. It also helps users to understand now a days features and techs. </h2>
 
-To get a local copy up and running follow these simple example steps.
+<h3>Built With Major languages Frameworks Technologies used Html, Css, linters.</h3>
+<h4>Grid,</h4>
+<h4>Flexbox,</h4>
+<h4>Hover</h4>
+
+<h5>To get a local copy up and running follow these simple example steps.</h5>
 
 Prerequisites 
 Setup 
 Install 
 Usage 
 Run 
-tests
+Tests
 Deployment 
 Authors 
 👤 Author
@@ -30,5 +34,5 @@ Feel free to check the issues page.
 Show your support Give a ⭐️ if you like this project!
 
 Acknowledgments Hat tip to anyone whose code was used Inspiration etc 
-📝 License
+📝 <h6>License</h6>
  This project is MIT licensed.
