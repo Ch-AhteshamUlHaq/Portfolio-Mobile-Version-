@@ -41,9 +41,9 @@ ul {
 }
 
 @keyframes rotation {
-    50% {
-	  transform: rotate(360deg);
-    }
+  50% {
+    transform: rotate(360deg);
+  }
 }
 
 .logo img {
@@ -500,10 +500,10 @@ ul {
 
 @media screen and (min-width: 992px) {
   .desktop_nav {
-	display: flex;
+        display: flex;
 	width: 10%;
 	margin-left: auto;
-	align-items: center;
+    align-items: center;
 	justify-content: center;
 	margin-right: 100px;
   }
