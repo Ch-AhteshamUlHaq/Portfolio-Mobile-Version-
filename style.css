@@ -500,7 +500,7 @@ ul {
 
 @media screen and (min-width: 992px) {
   .desktop_nav {
-      display: flex;
+    display: flex;
     width: 10%;
 	margin-left: auto;
     align-items: center;
