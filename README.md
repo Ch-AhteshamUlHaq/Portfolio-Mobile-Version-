@@ -1,5 +1,5 @@
-# Portfolio-Mobile-Version-
-Setup a mobile version portfolio to display my projects and skills
+# Portfolio-Mobile-Version
+Setup a mobile version Portfolio: Mobile Version Projects PR to display my projects and skills
 
 Hi, I simple coded the mobile version with the help of flexbox and figma features. It is a structure where we decorate and furnishe further. Develop the responsive one.
 
