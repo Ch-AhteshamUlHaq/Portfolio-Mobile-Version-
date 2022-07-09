@@ -11,8 +11,9 @@ our services better. It also helps users to understand now a days features and t
 <h4>Grid,</h4>
 <h4>Flexbox,</h4>
 <h4>Hover</h4>
+<h4>VSCode</h4>
 
-<h5>To get a local copy up and running follow these simple example steps.</h5>
+<h5>Download the repository and unzip it, deploy</h5>
 
 Prerequisites 
 Setup 
@@ -36,3 +37,12 @@ Show your support Give a ⭐️ if you like this project!
 Acknowledgments Hat tip to anyone whose code was used Inspiration etc 
 📝 <h6>License</h6>
  This project is MIT licensed.
+ Built With
+HTML
+CSS
+VScode
+Live Demo
+My Portfolio
+
+Getting Started
+To get a local copy just download the repository ZIP, UNZIP then open the Index.html file.
