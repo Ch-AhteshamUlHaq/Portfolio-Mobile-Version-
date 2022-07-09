@@ -1,28 +1,23 @@
-html
-{
+html{
   scroll-behavior: smooth;
 }
 
-body
-{
+body{
   background-color: #f7f7f9;
   overflow-x: hidden;
 }
 
-main
-{
+main{
   overflow: hidden;
   width: 104.8%;
   margin-left: -10px;
 }
 
-ul
-{
+ul{
   list-style-type: none;
 }
 
-.nav_container
-{
+.nav_container{
   width: 100%;
   display: flex;
   margin-left: -25px;
@@ -32,14 +27,12 @@ ul
 
 .nav_container,
 .logo,
-.toggle
-{
+.toggle{
   display: flex;
   padding: 20px;
 }
 
-.logo
-{
+.logo{
   width: 25%;
   display: flex;
   align-items: center;
@@ -47,34 +40,28 @@ ul
   animation: rotation 5s;
 }
 
-@keyframes rotation
-{
-  50%
-  {
+@keyframes rotation{
+  50%{
     transform: rotate(360deg);
   }
 }
 
-.logo img
-{
+.logo img{
   width: 100%;
 }
 
-.toggle img
-{
+.toggle img{
   width: 50%;
 }
 
-.toggle
-{
+.toggle{
   width: 10%;
   margin-left: auto;
   align-items: center;
   justify-content: center;
 }
 
-.main_container
-{
+.main_container{
   display: flex;
   flex-direction: column;
   margin-left: -7px;
@@ -87,8 +74,7 @@ ul
   background-color: #fff;
 }
 
-.figOne
-{
+.figOne{
   width: 300px;
   margin-top: 20%;
   font-family: "Poppins", sans-serif;
@@ -104,8 +90,7 @@ ul
   padding-right: 24px;
 }
 
-.figTwo
-{
+.figTwo{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 85%;
@@ -121,8 +106,7 @@ ul
   padding-left: 24px;
 }
 
-.figThree
-{
+.figThree{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -135,29 +119,25 @@ ul
   padding: 24px;
 }
 
-.figFour
-{
+.figFour{
   display: flex;
   padding-left: 24px;
   margin-left: -3px;
 }
 
-.socials
-{
+.socials{
   width: 10%;
   align-items: center;
   justify-content: center;
   padding: 2px;
 }
 
-.socials img
-{
+.socials img{
   width: 20px;
   height: 20px;
 }
 
-.project_contents
-{
+.project_contents{
   display: grid;
   row-gap: 88px;
   justify-content: center;
@@ -165,8 +145,7 @@ ul
   list-style-type: none;
 }
 
-.project
-{
+.project{
   padding: 16px 16px 24px 16px;
   display: flex;
   flex-direction: column;
@@ -176,19 +155,16 @@ ul
   background-color: #fff;
 }
 
-.project img
-{
+.project img{
   width: 100%;
   height: 100%;
 }
 
-.project_description
-{
+.project_description{
   padding: 48px;
 }
 
-.project_title
-{
+.project_title{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   margin-top: -10px;
@@ -200,16 +176,14 @@ ul
   text-align: left;
 }
 
-.project_info
-{
+.project_info{
   display: flex;
   align-items: center;
   column-gap: 32px;
   margin-top: -30px;
 }
 
-.project_title_II
-{
+.project_title_II{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -219,15 +193,13 @@ ul
   color: #344563;
 }
 
-.project_job_title_info_container
-{
+.project_job_title_info_container{
   display: flex;
   margin-left: -60px;
   list-style-type: none;
 }
 
-.job_title_info
-{
+.job_title_info{
   font-weight: 600;
   margin-right: 10px;
   font-size: 12px;
@@ -235,14 +207,12 @@ ul
   color: #7a869a;
 }
 
-.job_title_info::before
-{
+.job_title_info::before{
   content: url("images/Counter.png");
   margin-right: 10px;
 }
 
-.project_full_desc
-{
+.project_full_desc{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -252,8 +222,7 @@ ul
   color: #344563;
 }
 
-.project_tags_container
-{
+.project_tags_container{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   display: flex;
@@ -262,8 +231,7 @@ ul
   margin: 16px 0 29px -10px;
 }
 
-.project_tag
-{
+.project_tag{
   padding: 4px 12px;
   border-radius: 8px;
   font-weight: 500;
@@ -276,8 +244,7 @@ ul
   font-style: normal;
 }
 
-.view_project_btn
-{
+.view_project_btn{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 124px;
@@ -294,8 +261,7 @@ ul
   transition: all 0.5s ease-in-out;
 }
 
-.view_project_btn::after
-{
+.view_project_btn::after{
   content: "";
   background: #6070ff;
   display: block;
@@ -308,34 +274,29 @@ ul
   border-radius: 100%;
 }
 
-.view_project_btn:active::after
-{
+.view_project_btn:active::after{
   padding: 0;
   margin: 0;
   opacity: 1;
   transition: 0s;
 }
 
-.view_project_btn:hover
-{
+.view_project_btn:hover{
   background-color: #6070ff;
   color: white;
   transform: scale(1.1);
 }
 
-.view_project_btn:active
-{
+.view_project_btn:active{
   background-color: #172b4d;
   color: white;
 }
 
-.closed
-{
+.closed{
   display: none !important;
 }
 
-.about_container
-{
+.about_container{
   display: flex;
   flex-direction: column;
   margin-left: -7px;
@@ -344,8 +305,7 @@ ul
   background-color: #fff;
 }
 
-.resume_btn
-{
+.resume_btn{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   width: 170px;
@@ -361,8 +321,7 @@ ul
   margin-left: 50px;
 }
 
-.resume_btn::after
-{
+.resume_btn::after{
   content: "";
   background: #6070ff;
   display: block;
@@ -375,35 +334,30 @@ ul
   border-radius: 100%;
 }
 
-.resume_btn:active::after
-{
+.resume_btn:active::after{
   padding: 0;
   margin: 0;
   opacity: 1;
   transition: 0s;
 }
 
-.resume_btn:hover
-{
+.resume_btn:hover{
   background-color: #6070ff;
   color: white;
 }
 
-.resume_btn:active
-{
+.resume_btn:active{
   background-color: #172b4d;
   color: white;
 }
 
-.skills
-{
+.skills{
   margin-top: 6px;
   padding-top: 24px;
   background-color: #fff;
 }
 
-.skills_dropdown
-{
+.skills_dropdown{
   display: flex;
   width: 90%;
   flex-direction: row;
@@ -412,8 +366,7 @@ ul
   padding: 23px 40px 23px 0;
 }
 
-.skills_dropdown_title
-{
+.skills_dropdown_title{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -422,8 +375,7 @@ ul
   color: #000;
 }
 
-.skills_dropdown_desc
-{
+.skills_dropdown_desc{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -433,8 +385,7 @@ ul
   padding: 9px 30px 0 20px;
 }
 
-.skills_desc_li
-{
+.skills_desc_li{
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -445,8 +396,7 @@ ul
   background-color: #f7f7f9;
 }
 
-.skills_desc_li_title
-{
+.skills_desc_li_title{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -456,8 +406,7 @@ ul
   margin-left: 10px;
 }
 
-.dropdown_child_class
-{
+.dropdown_child_class{
   border-bottom: 1px solid #dfe1e6;
   align-items: center;
   justify-content: space-between;
@@ -465,14 +414,12 @@ ul
   width: 300px;
 }
 
-.tags_flex
-{
+.tags_flex{
   display: flex;
   margin-left: -40px;
 }
 
-.contact
-{
+.contact{
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
@@ -486,8 +433,7 @@ ul
   border-top-left-radius: 5rem;
 }
 
-.contact_container
-{
+.contact_container{
   width: 100%;
   border-radius: 8px;
   background: #fff;
@@ -497,8 +443,7 @@ ul
   padding: 0 1rem;
 }
 
-.contact_header
-{
+.contact_header{
   margin-top: 140px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -509,8 +454,7 @@ ul
   line-height: 52px;
 }
 
-.contact_description
-{
+.contact_description{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #ebebff;
@@ -521,36 +465,30 @@ ul
   line-height: 28px;
 }
 
-.about_myself .figOne
-{
+.about_myself .figOne{
   width: 40px;
   padding-left: 90px;
 }
 
-.about_myself .figTwo
-{
+.about_myself .figTwo{
   width: 80%;
   padding-left: 50px;
   padding-right: 200px;
 }
 
-.about_myself .figThree
-{
+.about_myself .figThree{
   padding-left: 50px;
 }
 
-.about_myself .figFour
-{
+.about_myself .figFour{
   padding-left: 48px;
 }
 
-.desktop_nav
-{
+.desktop_nav{
   display: none;
 }
 
-.desk_nav_info
-{
+.desk_nav_info{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   text-decoration: none;
@@ -560,10 +498,8 @@ ul
   color: #344563;
 }
 
-@media screen and (min-width: 992px)
-{
-  .desktop_nav
-  {
+@media screen and (min-width: 992px){
+  .desktop_nav{
     display: flex;
     width: 10%;
     margin-left: auto;
@@ -572,34 +508,28 @@ ul
     margin-right: 100px;
   }
 
-  .desktop_nav_container
-  {
+  .desktop_nav_container{
     display: flex;
   }
 
-  .desk_nav_li
-  {
+  .desk_nav_li{
     margin-right: 32px;
   }
 
-  .desk_nav_li a:hover
-  {
+  .desk_nav_li a:hover{
     color: #6070ff;
     font-size: large;
   }
 
-  .logo img
-  {
+  .logo img{
     width: 30%;
   }
 
-  .toggle
-  {
+  .toggle{
     display: none;
   }
 
-  .main_container
-  {
+  .main_container{
     width: 105%;
     background-image: url("assets/header-shapes-mobile.png");
     background-size: 90%;
@@ -610,15 +540,13 @@ ul
     border-bottom-left-radius: 160px;
   }
 
-  .figOne
-  {
+  .figOne{
     width: 400px;
     font-size: 48px;
     line-height: 60px;
   }
 
-  .figTwo
-  {
+  .figTwo{
     width: 75%;
     line-height: 28px;
     font-size: 20px;
@@ -626,14 +554,12 @@ ul
     justify-content: center;
   }
 
-  .socials
-  {
+  .socials{
     width: 30%;
     margin-right: 10px;
   }
 
-  .project
-  {
+  .project{
     padding: 20px 16px 24px 16px;
     margin-right: 160px;
     margin-left: 200px;
@@ -645,83 +571,70 @@ ul
     background-color: #fff;
   }
 
-  .reverse_row
-  {
+  .reverse_row{
     flex-direction: row-reverse !important;
   }
 
-  .project_description
-  {
+  .project_description{
     padding: 48px;
   }
 
-  .project img
-  {
+  .project img{
     width: 50%;
     height: 100%;
   }
 
-  .project_title
-  {
+  .project_title{
     font-weight: 700;
     font-size: 35px;
     line-height: 52px;
   }
 
-  .project_title_II
-  {
+  .project_title_II{
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
   }
 
-  .job_title_info
-  {
+  .job_title_info{
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
   }
 
-  .project_full_desc
-  {
+  .project_full_desc{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
   }
 
-  .about_container
-  {
+  .about_container{
     flex-direction: row;
     border-top-right-radius: 80px;
     background-color: #fff;
   }
 
-  .about_myself
-  {
+  .about_myself{
     width: 40%;
     margin-top: -110px;
     padding: 48px;
     margin-left: 100px;
   }
 
-  .about_myself .figOne
-  {
+  .about_myself .figOne{
     margin-left: 18px;
   }
 
-  .about_myself .figFour .socials
-  {
+  .about_myself .figFour .socials{
     width: 30px;
     margin-right: 10px;
   }
 
-  .about_myskills
-  {
+  .about_myskills{
     width: 60%;
   }
 
-  .skills_dropdown_desc
-  {
+  .skills_dropdown_desc{
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
@@ -730,8 +643,7 @@ ul
     padding: 9px 30px 0 80px;
   }
 
-  .skills_desc_li
-  {
+  .skills_desc_li{
     width: 100px;
     height: 100px;
     margin-left: 0;
@@ -740,8 +652,7 @@ ul
     flex-direction: column;
   }
 
-  .skills_dropdown
-  {
+  .skills_dropdown{
     width: 70%;
   }
 }
