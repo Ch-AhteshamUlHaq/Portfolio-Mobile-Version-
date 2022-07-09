@@ -568,88 +568,88 @@ ul {
 	align-items: flex-start;
 	border-radius: 16px;
 	border: 1px solid #dfe1e6;
-	background-color: #fff;
+	  background-color: #fff;
   }
 
   .reverse_row {
-	flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important;
   }
 
   .project_description {
-	padding: 48px;
+    padding: 48px;
   }
 
   .project img {
-	width: 50%;
-	height: 100%;
+    width: 50%;
+    height: 100%;
   }
 
   .project_title {
-	font-weight: 700;
-	font-size: 35px;
-	line-height: 52px;
+	  font-weight: 700;
+	  font-size: 35px;
+	  line-height: 52px;
   }
 
   .project_title_II {
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 24px;
+	  font-weight: 500;
+	  font-size: 18px;
+	  line-height: 24px;
   }
 
   .job_title_info {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 24px;
+	  font-weight: 400;
+	  font-size: 18px;
+	  line-height: 24px;
   }
 
   .project_full_desc {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
+	  font-weight: 400;
+	  font-size: 16px;
+	  line-height: 24px;
   }
 
   .about_container {
-	flex-direction: row;
-	border-top-right-radius: 80px;
-	background-color: #fff;
+	  flex-direction: row;
+	  border-top-right-radius: 80px;
+	  background-color: #fff;
   }
 
   .about_myself {
-	width: 40%;
-	margin-top: -110px;
-	padding: 48px;
-	margin-left: 100px;
+	  width: 40%;
+	  margin-top: -110px;
+	  padding: 48px;
+	  margin-left: 100px;
   }
 
   .about_myself .figOne {
-	margin-left: 18px;
+	  margin-left: 18px;
   }
 
   .about_myself .figFour .socials {
-	width: 30px;
-	margin-right: 10px;
+    width: 30px;
+	  margin-right: 10px;
   }
 
   .about_myskills {
-	width: 60%;
+	  width: 60%;
   }
 
   .skills_dropdown_desc {
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: flex-start;
-	border-radius: 8px;
-	margin-left: -77px;
-	padding: 9px 30px 0 80px;
+	  flex-direction: row;
+	  align-items: flex-start;
+	  justify-content: flex-start;
+	  border-radius: 8px;
+	  margin-left: -77px;
+	  padding: 9px 30px 0 80px;
   }
 
   .skills_desc_li {
-	width: 100px;
-	height: 100px;
-	margin-left: 0;
-	margin-right: 10px;
-	padding: 20px;
-  flex-direction: column;
+	  width: 100px;
+	  height: 100px;
+	  margin-left: 0;
+	  margin-right: 10px;
+	  padding: 20px;
+    flex-direction: column;
   }
 
   .skills_dropdown {
