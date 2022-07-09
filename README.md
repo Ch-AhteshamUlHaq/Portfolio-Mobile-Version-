@@ -1,7 +1,7 @@
 # Portfolio-Mobile-Version
 Setup a mobile version Portfolio: Mobile Version Projects PR to display my projects and skills
 
-Hi, I simple coded the mobile version with the help of flexbox and figma features. It is a structure where we decorate and furnishe further. Develop the responsive one.
+Hi, I simple coded the mobile version with the help of flexbox and figma features. It is a structure where we decorate and furnishe further. Develop the responsive one, It's a Portfolio: Mobile Version projects display. It helps the users to understand our services better. It also helps users to understand now a days features and techs.
 
 Built With Major languages Frameworks Technologies used Html, Css, linters.
 Grid,
